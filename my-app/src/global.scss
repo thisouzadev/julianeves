@@ -7,3 +7,52 @@ $width: 768px;
         @content
     }
 }
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$bg-color: #f8f9fa;
+
+body {
+  background-color: $bg-color;
+  color: $secondary-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  
+  &.dark-mode {
+    background-color: $secondary-color;
+    color: $bg-color;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+  }
+  
+  button {
+    background-color: $primary-color;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+    
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+    
+    &:focus {
+      outline: none;
+    }
+  }
+}
