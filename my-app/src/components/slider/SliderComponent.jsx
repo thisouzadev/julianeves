@@ -20,13 +20,22 @@ const SliderComponent = () => {
     <div className="slide" id="slide">
       <Slider {...settings}>
         <div className="slider-item">
-          <img src="assets/julia2.png" alt="Slider Item" />
+          <img src="assets/julia2.jpeg" alt="Slider Item" />
         </div>
         <div className="slider-item">
-          <img src="assets/julia3.png" alt="Slider Item" />
+          <img src="assets/julia3.jpeg" alt="Slider Item" />
         </div>
         <div className="slider-item">
-          <img src="assets/julia4.png" alt="Slider Item" />
+          <img src="assets/julia4.jpeg" alt="Slider Item" />
+        </div>
+        <div className="slider-item">
+          <img src="assets/julia5.jpeg" alt="Slider Item" />
+        </div>
+        <div className="slider-item">
+          <img src="assets/julia6.jpeg" alt="Slider Item" />
+        </div>
+        <div className="slider-item">
+          <img src="assets/julia7.jpeg" alt="Slider Item" />
         </div>
       </Slider>
     </div>

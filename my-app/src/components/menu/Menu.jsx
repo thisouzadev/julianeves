@@ -14,7 +14,7 @@ function Menu({ menuOpen, setMenuOpen }) {
           <a href="#information">Contato</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#slide">Galeria de Fotos</a>
+          <a href="#slide">Fotos</a>
         </li>
       </ul>
     </div>

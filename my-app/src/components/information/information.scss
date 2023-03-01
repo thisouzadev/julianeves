@@ -30,4 +30,22 @@
   .container{
     display: flex;
   }
+  .border-customizada {
+    border-style: solid;
+    border-width: 2px;
+    border-image: linear-gradient(to right, #000080, #4169E1) 1;
+    padding: 20px;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .icon-girando {
+    animation: rotate 2s linear infinite;
+  }
 }

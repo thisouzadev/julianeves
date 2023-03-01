@@ -2,41 +2,10 @@
 import React from "react";
 import "./information.scss";
 import * as FaIcons from "react-icons/fa";
-import * as FiIcons from "react-icons/fi";
+import * as BsIcons from "react-icons/bs";
 import * as AiFillIcons from "react-icons/ai";
 
 function Information() {
-  const information = [
-    {
-      information: "Name",
-      answeredInformation: "Thiago Souza e Souza",
-    },
-    {
-      information: "Email",
-      answeredInformation: "thiagodesouza.dev@gmail.com",
-    },
-    {
-      information: "Celular/WhatsApp",
-      answeredInformation: "+55(21)97944-7656",
-    },
-    {
-      information: "Data de Nascimento",
-      answeredInformation: "Outubro 2, 1991",
-    },
-    {
-      information: "Cidade",
-      answeredInformation: "Rio de janeiro, RJ",
-    },
-    {
-      information: "GitHub",
-      answeredInformation: "https://github.com/thisouzadev",
-    },
-    {
-      information: "Linkedin",
-      answeredInformation: "https://www.linkedin.com/in/thisouzadev/",
-    },
-  ];
-
   return (
     <div className="information" id="information">
       <a
@@ -44,8 +13,9 @@ function Information() {
         target="_blank"
         rel="noopener noreferrer"
         style={{ display: "flex" }}
+        className="border-customizada"
       >
-        <div className="itemContainer">
+        <div className="itemContainer icon-girando ">
           <AiFillIcons.AiFillStar className="icon" />
         </div>
         Close Friends
@@ -56,35 +26,25 @@ function Information() {
         target="_blank"
         rel="noopener noreferrer"
         style={{ display: "flex" }}
+        className="border-customizada"
       >
         <div className="itemContainer">
           <FaIcons.FaTiktok className="icon" />
         </div>
-        Tik Tok: juneveiss/
+        <p> Tik Tok: juneveiss/</p>
       </a>
 
       <a
-        href="https://www.instagram.com/julianeveis/"
+        href="https://t.me/sobremeuconteudo"
         target="_blank"
         rel="noopener noreferrer"
         style={{ display: "flex" }}
+        className="border-customizada"
       >
         <div className="itemContainer">
-          <AiFillIcons.AiFillInstagram className="icon" />
+          <BsIcons.BsTelegram className="icon" />
         </div>
-        Instagram: julianeveis/
-      </a>
-
-      <a
-        href="https://www.instagram.com/assessoriajulianeves/"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ display: "flex" }}
-      >
-        <div className="itemContainer">
-          <AiFillIcons.AiFillInstagram className="icon" />
-        </div>
-        Instagram: assessoriajulianeves/
+        Telegram Vip
       </a>
     </div>
   );
