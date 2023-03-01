@@ -22,19 +22,6 @@ function Information() {
       </a>
 
       <a
-        href="https://www.tiktok.com/@juneveiss?_t=8Wic6ZIeBaX&_r=1"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ display: "flex" }}
-        className="border-customizada"
-      >
-        <div className="itemContainer">
-          <FaIcons.FaTiktok className="icon" />
-        </div>
-        <p> Tik Tok: juneveiss/</p>
-      </a>
-
-      <a
         href="https://t.me/sobremeuconteudo"
         target="_blank"
         rel="noopener noreferrer"
